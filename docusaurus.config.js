@@ -15,7 +15,9 @@ const config = {
   favicon: '/img/favicon.ico',
   organizationName: 'staroinorg', // Usually your GitHub org/user name.
   projectName: 'starcoin-cookbook', // Usually your repo name.
-  
+  themes: [
+    '@saucelabs/theme-github-codeblock'
+  ],
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'zh'],
